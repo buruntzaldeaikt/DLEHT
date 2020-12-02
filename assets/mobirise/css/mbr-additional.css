@@ -1059,6 +1059,58 @@ a {
     text-align: center;
   }
 }
+.cid-si3IUABi1L {
+  padding-top: 2rem;
+  padding-bottom: 0rem;
+  background-color: #ffffff;
+}
+.cid-si3IUABi1L .number-wrap {
+  color: #024c1e;
+  text-align: center;
+}
+.cid-si3IUABi1L .number {
+  color: #e43f3f;
+}
+.cid-si3IUABi1L .period {
+  display: block;
+}
+.cid-si3IUABi1L .dot {
+  display: none;
+}
+@media (max-width: 767px) {
+  .cid-si3IUABi1L .period {
+    font-size: 0.8rem;
+  }
+}
+.cid-si3IUABi1L .btn {
+  height: 100%;
+  margin: 0;
+}
+.cid-si3IUABi1L .mbr-section-btn {
+  margin-bottom: 1.2rem;
+}
+.cid-si3IUABi1L .icons-menu .soc-item {
+  padding-left: 8px;
+  padding-right: 8px;
+}
+.cid-si3IUABi1L .icons-menu .soc-item .mbr-iconfont {
+  font-size: 2rem;
+  display: flex;
+  border-radius: 50%;
+  text-align: center;
+  color: #6592e6;
+  border: 2px solid #6592e6;
+  justify-content: center;
+  align-content: center;
+  transition: all 0.3s;
+}
+.cid-si3IUABi1L .icons-menu .soc-item .mbr-iconfont:before {
+  padding: 0.6rem;
+}
+.cid-si3IUABi1L .icons-menu .soc-item .mbr-iconfont:hover {
+  background-color: #6592e6;
+  color: #ffffff;
+}
 .cid-si3nF6Kkuo {
   padding-top: 0rem;
   padding-bottom: 0rem;
