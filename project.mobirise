@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "Distantzia Luzeko Euskal Herriko Txapelketa",
-    "currentPage": "dokumentazioa.html",
+    "currentPage": "index.html",
     "theme": {
       "name": "mobirise5",
       "title": "Mobirise 5",
@@ -49,16 +49,28 @@
     "versionPublish": "5.2.0",
     "screenshot": "screenshot.png",
     "favicon": false,
-    "imageResize": false,
-    "robotsSwitcher": false,
-    "sitemapSwitcher": false,
-    "sitemapSwitcherAuto": false,
-    "siteUrl": false,
-    "cookiesAlert": false,
+    "imageResize": true,
+    "robotsSwitcher": true,
+    "sitemapSwitcher": true,
+    "sitemapSwitcherAuto": "on",
+    "siteUrl": "https://dleht.buruntzaldeaikt.eus/sitemap.xml",
+    "cookiesAlert": {
+      "customDialogSelector": false,
+      "colorText": "#424a4d",
+      "colorBg": "#eaeff1",
+      "colorButton": "",
+      "colorLink": "#424a4d",
+      "underlineLink": true,
+      "opacity": "99",
+      "opacityOverlay": "80",
+      "text": "Webgune honek cookiak erabiltzen ditu, nabigazio esperientzia hobea eskaintzeko asmoz. Irakurri gure <a href='https://www.buruntzaldeaikt.eus/lege-oharra.html'>Lege Oharra, Baldintza Orokorrak eta Pribatutasun Politika</a>.",
+      "textButton": "ADOS NAGO"
+    },
     "gdpr": false,
     "site_lang": "undefined",
     "witsec-white-label": false,
-    "witsec-mailform": false
+    "witsec-mailform": false,
+    "robotsText": "User-agent: *\nDisallow: /cgi-bin\n"
   },
   "pages": {
     "index.html": {
@@ -2006,7 +2018,7 @@
     },
     "aldagelak.html": {
       "settings": {
-        "title": "Aldagelak",
+        "title": "Aldagelak-Dutxak",
         "meta_descr": "",
         "header_custom": "",
         "footer_custom": "",
