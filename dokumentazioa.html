@@ -115,14 +115,14 @@
                     <div id="tab1" class="tab-pane in active" role="tabpanel">
                         <div class="row">
                             <div class="col-md-12">
-                                <p class="mbr-text mbr-fonts-style display-7">📄 <a href="https://drive.google.com/open?id=1Ci22LY641cxfq8rorBuvX7o2lW_KYqzT" class="text-primary" target="_blank">Lehiaketa Federaturako Protokoloa</a><br></p>
+                                <p class="mbr-text mbr-fonts-style display-7">📄 <a href="javascript:OpenModal('Abisua')" class="text-primary">Lehiaketa Federaturako Protokoloa</a><br></p>
                             </div>
                         </div>
                     </div>
                     <div id="tab2" class="tab-pane" role="tabpanel">
                         <div class="row">
                             <div class="col-md-12">
-                                <p class="mbr-text mbr-fonts-style display-7">📝 <a href="https://drive.google.com/open?id=1iZLViZy8e4jVgNIUcIxhdoIRo5g5txsw" class="text-primary" target="_blank">1. eranskina: Ardura adierazpena</a><br>📝 <a href="https://drive.google.com/open?id=1DLnptHG8-IPbnVWDkyPjXYebciMTfYFU" class="text-primary" target="_blank">2. eranskina: Parte-hartzaile erregistroa</a><br>📝 <a href="https://drive.google.com/open?id=10VRetC9z3RlISnSuKeIuBbecJoFMQK9h" class="text-primary" target="_blank">A eranskina: Lehiaketa arduradunen osasun erregistroa (antolatzaileak eta epaileak)</a><br></p>
+                                <p class="mbr-text mbr-fonts-style display-7">📝 <a href="javascript:OpenModal('Oharra1eranskina')" class="text-primary">1. eranskina: Ardura adierazpena</a><br>📝 <a href="javascript:OpenModal('Oharra2eranskina')" class="text-primary">2. eranskina: Parte-hartzaile erregistroa</a><br>📝 <a href="https://drive.google.com/open?id=10VRetC9z3RlISnSuKeIuBbecJoFMQK9h" class="text-primary" target="_blank">A eranskina: Lehiaketa arduradunen osasun erregistroa (antolatzaileak eta epaileak)</a><br></p>
                             </div>
                         </div>
                     </div>
@@ -136,25 +136,163 @@
     </div>
 </section>
 
-<section class="content15 cid-si743T97xi" id="content15-x">
+<section class="mbr-section" id="witsec-modal-window-block-1c" data-rv-view="103">
 
-    
+	<style>
+	/* Let's not animate the contents of modal windows */
+	.no-anim {
+		-webkit-animation: none !important;
+		-moz-animation: none !important;
+		-o-animation: none !important;
+		-ms-animation: none !important;
+		animation: none !important;
+	}
+	</style>
 
-    
-    <div class="container-fluid">
-        <div class="row justify-content-center">
-            <div class="card col-md-12 col-lg-10">
-                <div class="card-wrapper">
-                    <div class="card-box align-left">
-                        <h4 class="card-title mbr-fonts-style mbr-white mb-3 display-5">
-                            <strong>Gure esku dago!</strong></h4>
-                        <p class="mbr-text mbr-fonts-style display-7">Momentuko arautegiak betetzeko eta betearazteko gure gaitasunak antolatu eta burutu ahal izango ditugun lehiaketa kopuruan zuzenean eragingo du. Kontutan izan!</p>
-                        
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
+	
+	
+	<div><div class="modal fade" id="Oharra2eranskina" tabindex="-1" role="dialog" aria-labelledby="Oharra2eranskinaLabel" aria-hidden="true">  <div class="modal-dialog  modal-dialog-centered" style="height:auto" role="document">    <div class="modal-content"><div class="modal-header">  <h5 class="no-anim modal-title" id="Oharra2eranskinaLabel">Hizkuntza oharra</h5>  <a href="#" class="no-anim close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></a></div><div class="modal-body" id="Oharra2eranskina_body">Euskadiko Federazioak ez du 2. eranskinaren euskerazko bertsiorik, beraz, 2. eranskina gazteleraz bakarrik dago.</div><div class="modal-footer"><div class="mbr-section-btn"><a href="https://mobirise.com/" class="no-anim btn btn-primary display-4" target="_new">Jarraitu</a></div></div>    </div>  </div></div><script>document.addEventListener("DOMContentLoaded", function() {  $("#Oharra2eranskina").on("hidden.bs.modal", function () {    var html = $( "#Oharra2eranskina_body" ).html();    $( "#Oharra2eranskina_body" ).empty();    $( "#Oharra2eranskina_body" ).append(html);  })});</script></div>
+
+	<script>
+	if (typeof OpenModal === 'undefined') {
+		OpenModal = function(modalName) {
+			if ($('#' + modalName).length)
+				$('#' + modalName).modal('show');
+			else
+				alert("Sorry, but there is no modal for " + modalName);
+		}
+	}
+
+	function modalSetCookie(cname, cvalue, exdays) {
+		var d = new Date();
+		d.setTime(d.getTime() + (exdays*24*60*60*1000));
+		var expires = "expires="+ d.toUTCString();
+		document.cookie = cname + "=" + cvalue + ";" + expires + ";path=/";
+	}
+
+	function modalGetCookie(cname) {
+		var name = cname + "=";
+		var decodedCookie = decodeURIComponent(document.cookie);
+		var ca = decodedCookie.split(';');
+		for(var i = 0; i <ca.length; i++) {
+			var c = ca[i];
+			while (c.charAt(0) == ' ') {
+				c = c.substring(1);
+			}
+			if (c.indexOf(name) == 0) {
+				return c.substring(name.length, c.length);
+			}
+		}
+		return "";
+	}
+	</script>
+
+</section>
+
+<section class="mbr-section" id="witsec-modal-window-block-1a" data-rv-view="98">
+
+	<style>
+	/* Let's not animate the contents of modal windows */
+	.no-anim {
+		-webkit-animation: none !important;
+		-moz-animation: none !important;
+		-o-animation: none !important;
+		-ms-animation: none !important;
+		animation: none !important;
+	}
+	</style>
+
+	
+	
+	<div><div class="modal fade" id="Oharra1eranskina" tabindex="-1" role="dialog" aria-labelledby="Oharra1eranskinaLabel" aria-hidden="true">  <div class="modal-dialog  modal-dialog-centered" style="height:auto" role="document">    <div class="modal-content"><div class="modal-header">  <h5 class="no-anim modal-title" id="Oharra1eranskinaLabel">Hizkuntza oharra</h5>  <a href="#" class="no-anim close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></a></div><div class="modal-body" id="Oharra1eranskina_body">Euskadiko Federazioak ez du 1. eranskinaren euskerazko bertsiorik, beraz, 1. eranskina gazteleraz bakarrik dago.</div><div class="modal-footer"><div class="mbr-section-btn"><a href="http://eif-fvn.org/wp-content/uploads/2020/10/Autodeclaracion-responsable-anexo-1.pdf" class="no-anim btn btn-primary display-4" target="_new">Jarraitu</a></div></div>    </div>  </div></div><script>document.addEventListener("DOMContentLoaded", function() {  $("#Oharra1eranskina").on("hidden.bs.modal", function () {    var html = $( "#Oharra1eranskina_body" ).html();    $( "#Oharra1eranskina_body" ).empty();    $( "#Oharra1eranskina_body" ).append(html);  })});</script></div>
+
+	<script>
+	if (typeof OpenModal === 'undefined') {
+		OpenModal = function(modalName) {
+			if ($('#' + modalName).length)
+				$('#' + modalName).modal('show');
+			else
+				alert("Sorry, but there is no modal for " + modalName);
+		}
+	}
+
+	function modalSetCookie(cname, cvalue, exdays) {
+		var d = new Date();
+		d.setTime(d.getTime() + (exdays*24*60*60*1000));
+		var expires = "expires="+ d.toUTCString();
+		document.cookie = cname + "=" + cvalue + ";" + expires + ";path=/";
+	}
+
+	function modalGetCookie(cname) {
+		var name = cname + "=";
+		var decodedCookie = decodeURIComponent(document.cookie);
+		var ca = decodedCookie.split(';');
+		for(var i = 0; i <ca.length; i++) {
+			var c = ca[i];
+			while (c.charAt(0) == ' ') {
+				c = c.substring(1);
+			}
+			if (c.indexOf(name) == 0) {
+				return c.substring(name.length, c.length);
+			}
+		}
+		return "";
+	}
+	</script>
+
+</section>
+
+<section class="mbr-section" id="witsec-modal-window-block-19" data-rv-view="99">
+
+	<style>
+	/* Let's not animate the contents of modal windows */
+	.no-anim {
+		-webkit-animation: none !important;
+		-moz-animation: none !important;
+		-o-animation: none !important;
+		-ms-animation: none !important;
+		animation: none !important;
+	}
+	</style>
+
+	
+	
+	<div><div class="modal fade" id="OharraProtokoloa" tabindex="-1" role="dialog" aria-labelledby="OharraProtokoloaLabel" aria-hidden="true">  <div class="modal-dialog  modal-dialog-centered" style="height:auto" role="document">    <div class="modal-content"><div class="modal-header">  <h5 class="no-anim modal-title" id="OharraProtokoloaLabel">Hizkuntza oharra</h5>  <a href="#" class="no-anim close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></a></div><div class="modal-body" id="OharraProtokoloa_body">Euskadiko Federazioak ez du protokoloaren euskerazko bertsiorik, beraz, protokoloa gazteleraz bakarrik dago.</div><div class="modal-footer"><div class="mbr-section-btn"><a href="http://eif-fvn.org/wp-content/uploads/2020/10/Protocolo-COVID-20-21-EIF-FVN-v1.pdf" class="no-anim btn btn-primary display-4" target="_new">Jarraitu</a></div></div>    </div>  </div></div><script>document.addEventListener("DOMContentLoaded", function() {  $("#OharraProtokoloa").on("hidden.bs.modal", function () {    var html = $( "#OharraProtokoloa_body" ).html();    $( "#OharraProtokoloa_body" ).empty();    $( "#OharraProtokoloa_body" ).append(html);  })});</script></div>
+
+	<script>
+	if (typeof OpenModal === 'undefined') {
+		OpenModal = function(modalName) {
+			if ($('#' + modalName).length)
+				$('#' + modalName).modal('show');
+			else
+				alert("Sorry, but there is no modal for " + modalName);
+		}
+	}
+
+	function modalSetCookie(cname, cvalue, exdays) {
+		var d = new Date();
+		d.setTime(d.getTime() + (exdays*24*60*60*1000));
+		var expires = "expires="+ d.toUTCString();
+		document.cookie = cname + "=" + cvalue + ";" + expires + ";path=/";
+	}
+
+	function modalGetCookie(cname) {
+		var name = cname + "=";
+		var decodedCookie = decodeURIComponent(document.cookie);
+		var ca = decodedCookie.split(';');
+		for(var i = 0; i <ca.length; i++) {
+			var c = ca[i];
+			while (c.charAt(0) == ' ') {
+				c = c.substring(1);
+			}
+			if (c.indexOf(name) == 0) {
+				return c.substring(name.length, c.length);
+			}
+		}
+		return "";
+	}
+	</script>
+
 </section>
 
 <section class="footer4 cid-si743U5BDp" once="footers" id="footer4-y">
@@ -224,7 +362,7 @@
             </div>
         </div>
     </div>
-</section><section style="background-color: #fff; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Helvetica Neue', Arial, sans-serif; color:#aaa; font-size:12px; padding: 0; align-items: center; display: flex;"><a href="https://mobirise.site/p" style="flex: 1 1; height: 3rem; padding-left: 1rem;"></a><p style="flex: 0 0 auto; margin:0; padding-right:1rem;">Made with Mobirise - <a href="https://mobirise.site/m" style="color:#aaa;">Try it</a></p></section><script src="assets/web/assets/jquery/jquery.min.js"></script>  <script src="assets/popper/popper.min.js"></script>  <script src="assets/tether/tether.min.js"></script>  <script src="assets/bootstrap/js/bootstrap.min.js"></script>  <script src="assets/web/assets/cookies-alert-plugin/cookies-alert-core.js"></script>  <script src="assets/web/assets/cookies-alert-plugin/cookies-alert-script.js"></script>  <script src="assets/smoothscroll/smooth-scroll.js"></script>  <script src="assets/dropdown/js/nav-dropdown.js"></script>  <script src="assets/dropdown/js/navbar-dropdown.js"></script>  <script src="assets/touchswipe/jquery.touch-swipe.min.js"></script>  <script src="assets/mbr-tabs/mbr-tabs.js"></script>  <script src="assets/theme/js/script.js"></script>  
+</section><section style="background-color: #fff; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Helvetica Neue', Arial, sans-serif; color:#aaa; font-size:12px; padding: 0; align-items: center; display: flex;"><a href="https://mobirise.site/s" style="flex: 1 1; height: 3rem; padding-left: 1rem;"></a><p style="flex: 0 0 auto; margin:0; padding-right:1rem;"><a href="https://mobirise.site/q" style="color:#aaa;">This web page</a> was designed with Mobirise themes</p></section><script src="assets/web/assets/jquery/jquery.min.js"></script>  <script src="assets/popper/popper.min.js"></script>  <script src="assets/tether/tether.min.js"></script>  <script src="assets/bootstrap/js/bootstrap.min.js"></script>  <script src="assets/web/assets/cookies-alert-plugin/cookies-alert-core.js"></script>  <script src="assets/web/assets/cookies-alert-plugin/cookies-alert-script.js"></script>  <script src="assets/smoothscroll/smooth-scroll.js"></script>  <script src="assets/dropdown/js/nav-dropdown.js"></script>  <script src="assets/dropdown/js/navbar-dropdown.js"></script>  <script src="assets/touchswipe/jquery.touch-swipe.min.js"></script>  <script src="assets/mbr-tabs/mbr-tabs.js"></script>  <script src="assets/theme/js/script.js"></script>  
   
   
 <input name="cookieData" type="hidden" data-cookie-customDialogSelector='null' data-cookie-colorText='#424a4d' data-cookie-colorBg='rgba(234, 239, 241, 0.99)' data-cookie-textButton='ADOS NAGO' data-cookie-colorButton='' data-cookie-colorLink='#424a4d' data-cookie-underlineLink='true' data-cookie-text="Webgune honek cookiak erabiltzen ditu, nabigazio esperientzia hobea eskaintzeko asmoz. Irakurri gure <a href='https://www.buruntzaldeaikt.eus/lege-oharra.html'>Lege Oharra, Baldintza Orokorrak eta Pribatutasun Politika</a>.">
