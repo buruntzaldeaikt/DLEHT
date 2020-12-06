@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "Distantzia Luzeko Euskal Herriko Txapelketa",
-    "currentPage": "index.html",
+    "currentPage": "dokumentazioa.html",
     "theme": {
       "name": "mobirise5",
       "title": "Mobirise 5",
@@ -534,7 +534,7 @@
             "modalSize": "medium",
             "modalHeader": true,
             "modalTitle": "OharraZirkularra",
-            "modalBody": "Euskadiko Federazioak ez du arautegiare euskerazko bertsiorik, beraz, arautegia gazteleraz bakarrik dago.",
+            "modalBody": "Euskadiko Federazioak ez du arautegiaren euskerazko bertsiorik, beraz, arautegia gazteleraz bakarrik dago.",
             "modalBodyHTML": false,
             "modalFooter": true,
             "modalCloseBtn": true,
@@ -551,7 +551,7 @@
             "modalAutoOpenDelay": 0
           },
           "modalTest": "<div class=\"mbr-section-btn\">\n  <a href=\"#\" class=\"btn btn-primary display-4\" data-toggle=\"modal\" data-target=\"#OharraZirkularra\">Preview OharraZirkularra</a>\n  <a href=\"#\" class=\"btn btn-primary display-4\" data-toggle=\"modal\" data-target=\"#OharraZirkularra-howtouse\">How to use OharraZirkularra</a>\n</div>\n<div class=\"modal fade\" id=\"OharraZirkularra-howtouse\" tabindex=\"-1\" role=\"dialog\" aria-labelledby=\"OharraZirkularra-howtouseLabel\" aria-hidden=\"true\">\n  <div class=\"modal-dialog\" role=\"document\" style=\"height:auto\">\n    <div class=\"modal-content\">\n      <div class=\"modal-header\">\n        <h5 class=\"modal-title\" id=\"OharraZirkularra-howtouseLabel\">How to use?</h5>\n        <a href=\"\" class=\"close\" data-dismiss=\"modal\" aria-label=\"Close\"><span aria-hidden=\"true\">&times;</span></a>\n      </div>\n      <div class=\"modal-body\">\n        Using your new modal is very easy. Simply create a new link, then click the \"...\" tab and enter the following as custom URL:<br /><br />\n        <code>javascript:OpenModal('OharraZirkularra')</code>\n      </div>\n      <div class=\"modal-footer\">\n        <div class=\"mbr-section-btn\"><a href=\"#\" class=\"btn btn-secondary display-4\" data-dismiss=\"modal\">Close</a></div>\n      </div>\n    </div>\n  </div>\n</div>",
-          "modalBody": "Euskadiko Federazioak ez du arautegiare euskerazko bertsiorik, beraz, arautegia gazteleraz bakarrik dago.",
+          "modalBody": "Euskadiko Federazioak ez du arautegiaren euskerazko bertsiorik, beraz, arautegia gazteleraz bakarrik dago.",
           "alias": "witsec-modal-window",
           "_tags": [
             "Extension"
@@ -559,7 +559,7 @@
           "_name": "witsec-modal-window-block",
           "_sourceTheme": "mobirise5",
           "_anchor": "witsec-modal-window-block-1d",
-          "modalWindow": "<div class=\"modal fade\" id=\"OharraZirkularra\" tabindex=\"-1\" role=\"dialog\" aria-labelledby=\"OharraZirkularraLabel\" aria-hidden=\"true\">  <div class=\"modal-dialog  modal-dialog-centered\" style=\"height:auto\" role=\"document\">    <div class=\"modal-content\"><div class=\"modal-header\">  <h5 class=\"no-anim modal-title\" id=\"OharraZirkularraLabel\">OharraZirkularra</h5>  <a href=\"#\" class=\"no-anim close\" data-dismiss=\"modal\" aria-label=\"Close\"><span aria-hidden=\"true\">&times;</span></a></div><div class=\"modal-body\" id=\"OharraZirkularra_body\">Euskadiko Federazioak ez du arautegiare euskerazko bertsiorik, beraz, arautegia gazteleraz bakarrik dago.</div><div class=\"modal-footer\"><div class=\"mbr-section-btn\"><a href=\"#\" class=\"no-anim btn btn-secondary display-4\" data-dismiss=\"modal\">Itxi</a></div><div class=\"mbr-section-btn\"><a href=\"http://eif-fvn.org/wp-content/uploads/2020/12/20-CIRCULAR-02-N-Cto-EH-larga-distancia-C.pdf\" class=\"no-anim btn btn-primary display-4\" target=_new>Jarraitu</a></div></div>    </div>  </div></div><script>document.addEventListener(\"DOMContentLoaded\", function() {  $(\"#OharraZirkularra\").on(\"hidden.bs.modal\", function () {    var html = $( \"#OharraZirkularra_body\" ).html();    $( \"#OharraZirkularra_body\" ).empty();    $( \"#OharraZirkularra_body\" ).append(html);  })});</script>"
+          "modalWindow": "<div class=\"modal fade\" id=\"OharraZirkularra\" tabindex=\"-1\" role=\"dialog\" aria-labelledby=\"OharraZirkularraLabel\" aria-hidden=\"true\">  <div class=\"modal-dialog  modal-dialog-centered\" style=\"height:auto\" role=\"document\">    <div class=\"modal-content\"><div class=\"modal-header\">  <h5 class=\"no-anim modal-title\" id=\"OharraZirkularraLabel\">OharraZirkularra</h5>  <a href=\"#\" class=\"no-anim close\" data-dismiss=\"modal\" aria-label=\"Close\"><span aria-hidden=\"true\">&times;</span></a></div><div class=\"modal-body\" id=\"OharraZirkularra_body\">Euskadiko Federazioak ez du arautegiaren euskerazko bertsiorik, beraz, arautegia gazteleraz bakarrik dago.</div><div class=\"modal-footer\"><div class=\"mbr-section-btn\"><a href=\"#\" class=\"no-anim btn btn-secondary display-4\" data-dismiss=\"modal\">Itxi</a></div><div class=\"mbr-section-btn\"><a href=\"http://eif-fvn.org/wp-content/uploads/2020/12/20-CIRCULAR-02-N-Cto-EH-larga-distancia-C.pdf\" class=\"no-anim btn btn-primary display-4\" target=_new>Jarraitu</a></div></div>    </div>  </div></div><script>document.addEventListener(\"DOMContentLoaded\", function() {  $(\"#OharraZirkularra\").on(\"hidden.bs.modal\", function () {    var html = $( \"#OharraZirkularra_body\" ).html();    $( \"#OharraZirkularra_body\" ).empty();    $( \"#OharraZirkularra_body\" ).append(html);  })});</script>"
         },
         {
           "alias": false,
