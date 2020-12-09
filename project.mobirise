@@ -567,7 +567,7 @@
             "modalSize": "medium",
             "modalHeader": true,
             "modalTitle": "Eguneraketa",
-            "modalBody": "Se ha actualizado el timing <a href='https://dleht.buruntzaldeaikt.eus/timing-a.html'>IKUSI</a>",
+            "modalBody": "Timin-a eguneratu da <a href='https://dleht.buruntzaldeaikt.eus/timing-a.html'>IKUSI</a>",
             "modalBodyHTML": true,
             "modalFooter": true,
             "modalCloseBtn": true,
@@ -584,7 +584,7 @@
             "modalAutoOpenDelay": "4"
           },
           "modalTest": "<div class=\"mbr-section-btn\">\n  <a href=\"#\" class=\"btn btn-primary display-4\" data-toggle=\"modal\" data-target=\"#Eguneraketa\">Preview Eguneraketa</a>\n  <a href=\"#\" class=\"btn btn-primary display-4\" data-toggle=\"modal\" data-target=\"#Eguneraketa-howtouse\">How to use Eguneraketa</a>\n</div>\n<div class=\"modal fade\" id=\"Eguneraketa-howtouse\" tabindex=\"-1\" role=\"dialog\" aria-labelledby=\"Eguneraketa-howtouseLabel\" aria-hidden=\"true\">\n  <div class=\"modal-dialog\" role=\"document\" style=\"height:auto\">\n    <div class=\"modal-content\">\n      <div class=\"modal-header\">\n        <h5 class=\"modal-title\" id=\"Eguneraketa-howtouseLabel\">How to use?</h5>\n        <a href=\"\" class=\"close\" data-dismiss=\"modal\" aria-label=\"Close\"><span aria-hidden=\"true\">&times;</span></a>\n      </div>\n      <div class=\"modal-body\">\n        Using your new modal is very easy. Simply create a new link, then click the \"...\" tab and enter the following as custom URL:<br /><br />\n        <code>javascript:OpenModal('Eguneraketa')</code>\n      </div>\n      <div class=\"modal-footer\">\n        <div class=\"mbr-section-btn\"><a href=\"#\" class=\"btn btn-secondary display-4\" data-dismiss=\"modal\">Close</a></div>\n      </div>\n    </div>\n  </div>\n</div>",
-          "modalBody": "Se ha actualizado el timing <a href='https://dleht.buruntzaldeaikt.eus/timing-a.html'>IKUSI</a>",
+          "modalBody": "Timin-a eguneratu da <a href='https://dleht.buruntzaldeaikt.eus/timing-a.html'>IKUSI</a>",
           "alias": "witsec-modal-window",
           "_tags": [
             "Extension"
@@ -592,7 +592,7 @@
           "_name": "witsec-modal-window-block",
           "_sourceTheme": "mobirise5",
           "_anchor": "witsec-modal-window-block-1g",
-          "modalWindow": "<div class=\"modal fade\" id=\"Eguneraketa\" tabindex=\"-1\" role=\"dialog\" aria-labelledby=\"EguneraketaLabel\" aria-hidden=\"true\">  <div class=\"modal-dialog  \" style=\"height:auto\" role=\"document\">    <div class=\"modal-content\"><div class=\"modal-header\">  <h5 class=\"no-anim modal-title\" id=\"EguneraketaLabel\">Eguneraketa</h5>  <a href=\"#\" class=\"no-anim close\" data-dismiss=\"modal\" aria-label=\"Close\"><span aria-hidden=\"true\">&times;</span></a></div><div class=\"modal-body\" id=\"Eguneraketa_body\">Se ha actualizado el timing <a href='https://dleht.buruntzaldeaikt.eus/timing-a.html'>IKUSI</a></div><div class=\"modal-footer\"><div class=\"mbr-section-btn\"><a href=\"#\" class=\"no-anim btn btn-secondary display-4\" data-dismiss=\"modal\">Itxi</a></div></div>    </div>  </div></div><script>document.addEventListener(\"DOMContentLoaded\", function() {  $(\"#Eguneraketa\").on(\"hidden.bs.modal\", function () {    var html = $( \"#Eguneraketa_body\" ).html();    $( \"#Eguneraketa_body\" ).empty();    $( \"#Eguneraketa_body\" ).append(html);  })});</script>"
+          "modalWindow": "<div class=\"modal fade\" id=\"Eguneraketa\" tabindex=\"-1\" role=\"dialog\" aria-labelledby=\"EguneraketaLabel\" aria-hidden=\"true\">  <div class=\"modal-dialog  \" style=\"height:auto\" role=\"document\">    <div class=\"modal-content\"><div class=\"modal-header\">  <h5 class=\"no-anim modal-title\" id=\"EguneraketaLabel\">Eguneraketa</h5>  <a href=\"#\" class=\"no-anim close\" data-dismiss=\"modal\" aria-label=\"Close\"><span aria-hidden=\"true\">&times;</span></a></div><div class=\"modal-body\" id=\"Eguneraketa_body\">Timin-a eguneratu da <a href='https://dleht.buruntzaldeaikt.eus/timing-a.html'>IKUSI</a></div><div class=\"modal-footer\"><div class=\"mbr-section-btn\"><a href=\"#\" class=\"no-anim btn btn-secondary display-4\" data-dismiss=\"modal\">Itxi</a></div></div>    </div>  </div></div><script>document.addEventListener(\"DOMContentLoaded\", function() {  $(\"#Eguneraketa\").on(\"hidden.bs.modal\", function () {    var html = $( \"#Eguneraketa_body\" ).html();    $( \"#Eguneraketa_body\" ).empty();    $( \"#Eguneraketa_body\" ).append(html);  })});</script>"
         },
         {
           "alias": false,
