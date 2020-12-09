@@ -68,7 +68,7 @@
     },
     "gdpr": false,
     "site_lang": "undefined",
-    "witsec-white-label": false,
+    "witsec-white-label": true,
     "witsec-mailform": false,
     "robotsText": "User-agent: *\nDisallow: /cgi-bin\n"
   },
