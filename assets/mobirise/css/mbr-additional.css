@@ -1677,6 +1677,44 @@ a {
 .cid-si3hRK2iJf .icon-title {
   color: #024c1e;
 }
+.cid-siLVMExOgN {
+  padding-top: 5rem;
+  padding-bottom: 0rem;
+  background-color: #ffffff;
+}
+.cid-siLVMExOgN .item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 4rem;
+  flex-direction: column;
+}
+.cid-siLVMExOgN .icon-box {
+  margin-bottom: 1rem;
+  text-align: center;
+  display: inline-block;
+}
+.cid-siLVMExOgN .text-box {
+  text-align: center;
+}
+.cid-siLVMExOgN span {
+  font-size: 10rem;
+  color: #e43f3f;
+  font-weight: bold;
+  display: block;
+}
+@media (max-width: 991px) {
+  .cid-siLVMExOgN .card {
+    margin-bottom: 2rem;
+  }
+  .cid-siLVMExOgN .card-wrapper {
+    margin-bottom: 2rem;
+  }
+}
+@media (max-width: 768px) {
+  .cid-siLVMExOgN span {
+    font-size: 21vw;
+  }
+}
 .cid-sinIDLgVOP {
   padding-top: 2rem;
   padding-bottom: 2rem;
