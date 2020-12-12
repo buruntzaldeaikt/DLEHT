@@ -98,13 +98,13 @@
                 <h1 class="mbr-section-title mbr-fonts-style mb-3 display-1"><strong>Distantzia Luzeko Euskal Herriko Txapelketa</strong></h1>
                 <h2 class="mbr-section-title mbr-fonts-style mb-3 display-2">2020ko abenduaren 12a, 10:00etan hasita</h2>
                 <p class="mbr-text mbr-fonts-style display-5">Maialen Chourraut Udal Kiroldegia, Lasarte-Oria</p>
-                <div class="mbr-section-btn mt-3"><a class="btn btn-primary display-4" href="javascript:OpenModal('OharraZirkularra')">Arautegia</a> <a class="btn btn-primary display-4" href="http://eif-fvn.org/wp-content/uploads/2020/12/Inscripciones-por-prueba.pdf" target="_blank">Zerrendak</a> <a class="btn btn-primary display-4" href="https://drive.google.com/open?id=1kW59gV_gRjciwzcTCzBiu37cy-fkrd2p" target="_blank">Serieak</a> <a class="btn btn-primary display-4" href="assets/files/PRUEBA-1.pdf" target="_blank">Emaitzak Emakumezkoak</a> <a class="btn btn-primary display-4" href="assets/files/PRUEBA-2.pdf" target="_blank">Emaitzak Gizonezkoak</a></div>
+                <div class="mbr-section-btn mt-3"><a class="btn btn-primary display-4" href="javascript:OpenModal('OharraZirkularra')">Arautegia</a> <a class="btn btn-primary display-4" href="http://eif-fvn.org/wp-content/uploads/2020/12/Inscripciones-por-prueba.pdf" target="_blank">Zerrendak</a> <a class="btn btn-primary display-4" href="https://drive.google.com/open?id=1kW59gV_gRjciwzcTCzBiu37cy-fkrd2p" target="_blank">Serieak</a> <a class="btn btn-primary display-4" href="assets/files/EMAITZAK.pdf" target="_blank">Emaitzak</a></div>
             </div>
         </div>
     </div>
 </section>
 
-<section class="mbr-section" id="witsec-modal-window-block-1d" data-rv-view="2355">
+<section class="mbr-section" id="witsec-modal-window-block-1d" data-rv-view="327">
 
 	<style>
 	/* Let's not animate the contents of modal windows */
@@ -156,73 +156,6 @@
 	</script>
 
 </section>
-
-<section class="mbr-section" id="witsec-modal-window-block-1g" data-rv-view="2356">
-
-	<style>
-	/* Let's not animate the contents of modal windows */
-	.no-anim {
-		-webkit-animation: none !important;
-		-moz-animation: none !important;
-		-o-animation: none !important;
-		-ms-animation: none !important;
-		animation: none !important;
-	}
-	</style>
-
-	
-	
-	<div><div class="modal fade" id="Eguneraketa" tabindex="-1" role="dialog" aria-labelledby="EguneraketaLabel" aria-hidden="true">  <div class="modal-dialog  " style="height:auto" role="document">    <div class="modal-content"><div class="modal-header">  <h5 class="no-anim modal-title" id="EguneraketaLabel">Eguneraketak: 2020/12/10 13:15</h5>  <a href="#" class="no-anim close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></a></div><div class="modal-body" id="Eguneraketa_body">1.- Timing-a BERRIRO eguneratu da <a href="https://dleht.buruntzaldeaikt.eus/timing-a.html">IKUSI</a>
-<br><br>
-2.- Parte-hartzaile zerrenda argitaratu da <a href="http://eif-fvn.org/wp-content/uploads/2020/12/Inscripciones-por-prueba.pdf">IKUSI</a>
-<br><br>
-3.- Serieak argitaratu dira <a href="https://drive.google.com/open?id=1kW59gV_gRjciwzcTCzBiu37cy-fkrd2p">IKUSI</a></div><div class="modal-footer"><div class="mbr-section-btn"><a href="#" class="no-anim btn btn-secondary display-4" data-dismiss="modal">Itxi</a></div></div>    </div>  </div></div><script>document.addEventListener("DOMContentLoaded", function() {  $("#Eguneraketa").on("hidden.bs.modal", function () {    var html = $( "#Eguneraketa_body" ).html();    $( "#Eguneraketa_body" ).empty();    $( "#Eguneraketa_body" ).append(html);  })});</script></div>
-
-	<script>
-	if (typeof OpenModal === 'undefined') {
-		OpenModal = function(modalName) {
-			if ($('#' + modalName).length)
-				$('#' + modalName).modal('show');
-			else
-				alert("Sorry, but there is no modal for " + modalName);
-		}
-	}
-
-	function modalSetCookie(cname, cvalue, exdays) {
-		var d = new Date();
-		d.setTime(d.getTime() + (exdays*24*60*60*1000));
-		var expires = "expires="+ d.toUTCString();
-		document.cookie = cname + "=" + cvalue + ";" + expires + ";path=/";
-	}
-
-	function modalGetCookie(cname) {
-		var name = cname + "=";
-		var decodedCookie = decodeURIComponent(document.cookie);
-		var ca = decodedCookie.split(';');
-		for(var i = 0; i <ca.length; i++) {
-			var c = ca[i];
-			while (c.charAt(0) == ' ') {
-				c = c.substring(1);
-			}
-			if (c.indexOf(name) == 0) {
-				return c.substring(name.length, c.length);
-			}
-		}
-		return "";
-	}
-	</script>
-
-</section><script>
-document.addEventListener("DOMContentLoaded", function() {
-  if (modalGetCookie("Eguneraketa_viewed") == "") {
-    setTimeout( function() {
-      
-        modalSetCookie("Eguneraketa_viewed", true, 3600);
-      OpenModal("Eguneraketa");
-    } , 3000);
-  }
-});
-</script>
 
 <section class="countdown3 cid-si3IUABi1L" id="countdown3-n">
     

@@ -203,59 +203,6 @@
     </div>
 </section>
 
-<section class="mbr-section" id="witsec-modal-window-block-1i" data-rv-view="2376">
-
-	<style>
-	/* Let's not animate the contents of modal windows */
-	.no-anim {
-		-webkit-animation: none !important;
-		-moz-animation: none !important;
-		-o-animation: none !important;
-		-ms-animation: none !important;
-		animation: none !important;
-	}
-	</style>
-
-	
-	
-	<div><div class="modal fade" id="Emaitzak" tabindex="-1" role="dialog" aria-labelledby="EmaitzakLabel" aria-hidden="true">  <div class="modal-dialog  " style="height:auto" role="document">    <div class="modal-content"><div class="modal-header">  <h5 class="no-anim modal-title" id="EmaitzakLabel">Serieen emaitzak</h5>  <a href="#" class="no-anim close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></a></div><div class="modal-body" id="Emaitzak_body">Emaitzarik ez dago oraindik</div><div class="modal-footer"><div class="mbr-section-btn"><a href="#" class="no-anim btn btn-secondary display-4" data-dismiss="modal">Itxi</a></div></div>    </div>  </div></div><script>document.addEventListener("DOMContentLoaded", function() {  $("#Emaitzak").on("hidden.bs.modal", function () {    var html = $( "#Emaitzak_body" ).html();    $( "#Emaitzak_body" ).empty();    $( "#Emaitzak_body" ).append(html);  })});</script></div>
-
-	<script>
-	if (typeof OpenModal === 'undefined') {
-		OpenModal = function(modalName) {
-			if ($('#' + modalName).length)
-				$('#' + modalName).modal('show');
-			else
-				alert("Sorry, but there is no modal for " + modalName);
-		}
-	}
-
-	function modalSetCookie(cname, cvalue, exdays) {
-		var d = new Date();
-		d.setTime(d.getTime() + (exdays*24*60*60*1000));
-		var expires = "expires="+ d.toUTCString();
-		document.cookie = cname + "=" + cvalue + ";" + expires + ";path=/";
-	}
-
-	function modalGetCookie(cname) {
-		var name = cname + "=";
-		var decodedCookie = decodeURIComponent(document.cookie);
-		var ca = decodedCookie.split(';');
-		for(var i = 0; i <ca.length; i++) {
-			var c = ca[i];
-			while (c.charAt(0) == ' ') {
-				c = c.substring(1);
-			}
-			if (c.indexOf(name) == 0) {
-				return c.substring(name.length, c.length);
-			}
-		}
-		return "";
-	}
-	</script>
-
-</section>
-
 <section class="features21 cid-siLVMExOgN" id="Serieak">
 
     

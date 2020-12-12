@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "Distantzia Luzeko Euskal Herriko Txapelketa",
-    "currentPage": "index.html",
+    "currentPage": "timing-a.html",
     "theme": {
       "name": "mobirise5",
       "title": "Mobirise 5",
@@ -520,7 +520,7 @@
           },
           "_name": "header1",
           "_sourceTheme": "mobirise5",
-          "_customHTML": "<section class=\"header1\" group=\"Headers\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{\n    'mbr-fullscreen': fullScreen,\n    'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"checkbox\" title=\"Full Screen\" name=\"fullScreen\" checked>\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\" checked>\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"5\" condition=\"fullScreen == false\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"5\" condition=\"fullScreen == false\">\n\n        <input type=\"range\" inline name=\"textWidth\" title=\"Width\" min=\"4\" max=\"12\" value=\"11\" step=\"1\">\n        <select title=\"Align\" name=\"contentAlign\">\n            <option value>Left</option>\n            <option value=\"justify-content-center\" selected>Center</option>\n            <option value=\"justify-content-end\">Right</option>\n        </select>\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Subtitle\" name=\"showSubitle\" checked>\n        <input type=\"checkbox\" title=\"Text\" name=\"showText\" checked>\n        <input type=\"checkbox\" title=\"Buttons\" name=\"showButtons\" checked>\n        <header>Background</header>\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Image\" value=\"@PROJECT_PATH@/assets/images/82772124-630338577736138-4028436335873228800-o.jpg\" parallax selected>\n            <input type=\"color\" title=\"Color\" value=\"#ffffff\">\n            <input type=\"video\" title=\"Video\" value=\"https://vimeo.com/428046504\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#000000\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.8\" condition=\"overlay && bg.type !== 'color'\">\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type !== 'color'\" opacity=\"{{overlayOpacity}}\" bg-color=\"{{overlayColor}}\"></div>\n\n    <div class=\"align-center\" mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n        <div class=\"row {{contentAlign}}\">\n            <div class=\"col-12 col-lg-{{textWidth}}\">\n                <h1 class=\"mbr-section-title mbr-fonts-style mb-3\" data-app-selector=\".mbr-section-title\" mbr-theme-style=\"display-1\" mbr-if=\"showTitle\"><b>Distantzia Luzeko Euskal Herriko Txapelketa</b></h1>\n                <h2 class=\"mbr-section-title mbr-fonts-style mb-3\" data-app-selector=\".mbr-section-title\" mbr-theme-style=\"display-2\" mbr-if=\"showSubitle\">2020ko abenduaren 12a, 10:00etan hasita</h2>\n                <p class=\"mbr-text mbr-fonts-style\" mbr-theme-style=\"display-5\" mbr-if=\"showText\" data-app-selector=\".mbr-text, .mbr-section-btn\">Maialen Chourraut Udal Kiroldegia, Lasarte-Oria</p>\n                <div mbr-buttons mbr-theme-style=\"display-4\" class=\"mbr-section-btn mt-3\" mbr-if=\"showButtons\"><a class=\"btn btn-primary\" href=\"javascript:OpenModal('OharraZirkularra')\" data-app-placeholder=\"Type Text\">Arautegia</a> <a class=\"btn btn-primary\" href=\"http://eif-fvn.org/wp-content/uploads/2020/12/Inscripciones-por-prueba.pdf\" data-app-placeholder=\"Type Text\" target=\"_blank\">Zerrendak</a> <a class=\"btn btn-primary\" href=\"https://drive.google.com/open?id=1kW59gV_gRjciwzcTCzBiu37cy-fkrd2p\" data-app-placeholder=\"Type Text\" target=\"_blank\">Serieak</a> <a class=\"btn btn-primary\" href=\"assets/files/PRUEBA-1.pdf\" data-app-placeholder=\"Type Text\" target=\"_blank\">Emaitzak Emakumezkoak</a> <a class=\"btn btn-primary\" href=\"assets/files/PRUEBA-2.pdf\" data-app-placeholder=\"Type Text\" target=\"_blank\">Emaitzak Gizonezkoak</a></div>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_customHTML": "<section class=\"header1\" group=\"Headers\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{\n    'mbr-fullscreen': fullScreen,\n    'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"checkbox\" title=\"Full Screen\" name=\"fullScreen\" checked>\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\" checked>\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"5\" condition=\"fullScreen == false\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"5\" condition=\"fullScreen == false\">\n\n        <input type=\"range\" inline name=\"textWidth\" title=\"Width\" min=\"4\" max=\"12\" value=\"11\" step=\"1\">\n        <select title=\"Align\" name=\"contentAlign\">\n            <option value>Left</option>\n            <option value=\"justify-content-center\" selected>Center</option>\n            <option value=\"justify-content-end\">Right</option>\n        </select>\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Subtitle\" name=\"showSubitle\" checked>\n        <input type=\"checkbox\" title=\"Text\" name=\"showText\" checked>\n        <input type=\"checkbox\" title=\"Buttons\" name=\"showButtons\" checked>\n        <header>Background</header>\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Image\" value=\"@PROJECT_PATH@/assets/images/82772124-630338577736138-4028436335873228800-o.jpg\" parallax selected>\n            <input type=\"color\" title=\"Color\" value=\"#ffffff\">\n            <input type=\"video\" title=\"Video\" value=\"https://vimeo.com/428046504\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#000000\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.8\" condition=\"overlay && bg.type !== 'color'\">\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type !== 'color'\" opacity=\"{{overlayOpacity}}\" bg-color=\"{{overlayColor}}\"></div>\n\n    <div class=\"align-center\" mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n        <div class=\"row {{contentAlign}}\">\n            <div class=\"col-12 col-lg-{{textWidth}}\">\n                <h1 class=\"mbr-section-title mbr-fonts-style mb-3\" data-app-selector=\".mbr-section-title\" mbr-theme-style=\"display-1\" mbr-if=\"showTitle\"><b>Distantzia Luzeko Euskal Herriko Txapelketa</b></h1>\n                <h2 class=\"mbr-section-title mbr-fonts-style mb-3\" data-app-selector=\".mbr-section-title\" mbr-theme-style=\"display-2\" mbr-if=\"showSubitle\">2020ko abenduaren 12a, 10:00etan hasita</h2>\n                <p class=\"mbr-text mbr-fonts-style\" mbr-theme-style=\"display-5\" mbr-if=\"showText\" data-app-selector=\".mbr-text, .mbr-section-btn\">Maialen Chourraut Udal Kiroldegia, Lasarte-Oria</p>\n                <div mbr-buttons mbr-theme-style=\"display-4\" class=\"mbr-section-btn mt-3\" mbr-if=\"showButtons\"><a class=\"btn btn-primary\" href=\"javascript:OpenModal('OharraZirkularra')\" data-app-placeholder=\"Type Text\">Arautegia</a> <a class=\"btn btn-primary\" href=\"http://eif-fvn.org/wp-content/uploads/2020/12/Inscripciones-por-prueba.pdf\" data-app-placeholder=\"Type Text\" target=\"_blank\">Zerrendak</a> <a class=\"btn btn-primary\" href=\"https://drive.google.com/open?id=1kW59gV_gRjciwzcTCzBiu37cy-fkrd2p\" data-app-placeholder=\"Type Text\" target=\"_blank\">Serieak</a> <a class=\"btn btn-primary\" href=\"assets/files/EMAITZAK.pdf\" data-app-placeholder=\"Type Text\" target=\"_blank\">Emaitzak</a></div>\n            </div>\n        </div>\n    </div>\n</section>",
           "_anchor": "header1-9",
           "_isUserblock": true,
           "_cid": "si3inwhyOX",
@@ -561,39 +561,6 @@
           "_sourceTheme": "mobirise5",
           "_anchor": "witsec-modal-window-block-1d",
           "modalWindow": "<div class=\"modal fade\" id=\"OharraZirkularra\" tabindex=\"-1\" role=\"dialog\" aria-labelledby=\"OharraZirkularraLabel\" aria-hidden=\"true\">  <div class=\"modal-dialog  modal-dialog-centered\" style=\"height:auto\" role=\"document\">    <div class=\"modal-content\"><div class=\"modal-header\">  <h5 class=\"no-anim modal-title\" id=\"OharraZirkularraLabel\">OharraZirkularra</h5>  <a href=\"#\" class=\"no-anim close\" data-dismiss=\"modal\" aria-label=\"Close\"><span aria-hidden=\"true\">&times;</span></a></div><div class=\"modal-body\" id=\"OharraZirkularra_body\">Euskadiko Federazioak ez du arautegiaren euskerazko bertsiorik, beraz, arautegia gazteleraz bakarrik dago.</div><div class=\"modal-footer\"><div class=\"mbr-section-btn\"><a href=\"#\" class=\"no-anim btn btn-secondary display-4\" data-dismiss=\"modal\">Itxi</a></div><div class=\"mbr-section-btn\"><a href=\"http://eif-fvn.org/wp-content/uploads/2020/12/20-CIRCULAR-02-N-Cto-EH-larga-distancia-C.pdf\" class=\"no-anim btn btn-primary display-4\" target=_new>Jarraitu</a></div></div>    </div>  </div></div><script>document.addEventListener(\"DOMContentLoaded\", function() {  $(\"#OharraZirkularra\").on(\"hidden.bs.modal\", function () {    var html = $( \"#OharraZirkularra_body\" ).html();    $( \"#OharraZirkularra_body\" ).empty();    $( \"#OharraZirkularra_body\" ).append(html);  })});</script>"
-        },
-        {
-          "_params": {
-            "modalName": "Eguneraketa",
-            "modalSize": "medium",
-            "modalHeader": true,
-            "modalTitle": "Eguneraketak: 2020/12/10 13:15",
-            "modalBody": "1.- Timing-a BERRIRO eguneratu da <a href='https://dleht.buruntzaldeaikt.eus/timing-a.html'>IKUSI</a>\n<br><br>\n2.- Parte-hartzaile zerrenda argitaratu da <a href='http://eif-fvn.org/wp-content/uploads/2020/12/Inscripciones-por-prueba.pdf'>IKUSI</a>\n<br><br>\n3.- Serieak argitaratu dira <a href='https://drive.google.com/open?id=1kW59gV_gRjciwzcTCzBiu37cy-fkrd2p'>IKUSI</a>",
-            "modalBodyHTML": true,
-            "modalFooter": true,
-            "modalCloseBtn": true,
-            "modalCloseText": "Itxi",
-            "modalLink": false,
-            "modalLinkUrl": "https://mobirise.com/",
-            "modalLinkText": "Visit Mobirise",
-            "modalLinkNewWindow": true,
-            "modalVerticalCenter": false,
-            "modalFade": true,
-            "modalAutoOpen": true,
-            "modalAutoOpenOnce": true,
-            "modalAutoOpenGDPR": false,
-            "modalAutoOpenDelay": "3"
-          },
-          "modalTest": "<div class=\"mbr-section-btn\">\n  <a href=\"#\" class=\"btn btn-primary display-4\" data-toggle=\"modal\" data-target=\"#Eguneraketa\">Preview Eguneraketa</a>\n  <a href=\"#\" class=\"btn btn-primary display-4\" data-toggle=\"modal\" data-target=\"#Eguneraketa-howtouse\">How to use Eguneraketa</a>\n</div>\n<div class=\"modal fade\" id=\"Eguneraketa-howtouse\" tabindex=\"-1\" role=\"dialog\" aria-labelledby=\"Eguneraketa-howtouseLabel\" aria-hidden=\"true\">\n  <div class=\"modal-dialog\" role=\"document\" style=\"height:auto\">\n    <div class=\"modal-content\">\n      <div class=\"modal-header\">\n        <h5 class=\"modal-title\" id=\"Eguneraketa-howtouseLabel\">How to use?</h5>\n        <a href=\"\" class=\"close\" data-dismiss=\"modal\" aria-label=\"Close\"><span aria-hidden=\"true\">&times;</span></a>\n      </div>\n      <div class=\"modal-body\">\n        Using your new modal is very easy. Simply create a new link, then click the \"...\" tab and enter the following as custom URL:<br /><br />\n        <code>javascript:OpenModal('Eguneraketa')</code>\n      </div>\n      <div class=\"modal-footer\">\n        <div class=\"mbr-section-btn\"><a href=\"#\" class=\"btn btn-secondary display-4\" data-dismiss=\"modal\">Close</a></div>\n      </div>\n    </div>\n  </div>\n</div>",
-          "modalBody": "1.- Timing-a BERRIRO eguneratu da <a href='https://dleht.buruntzaldeaikt.eus/timing-a.html'>IKUSI</a>\n<br><br>\n2.- Parte-hartzaile zerrenda argitaratu da <a href='http://eif-fvn.org/wp-content/uploads/2020/12/Inscripciones-por-prueba.pdf'>IKUSI</a>\n<br><br>\n3.- Serieak argitaratu dira <a href='https://drive.google.com/open?id=1kW59gV_gRjciwzcTCzBiu37cy-fkrd2p'>IKUSI</a>",
-          "alias": "witsec-modal-window",
-          "_tags": [
-            "Extension"
-          ],
-          "_name": "witsec-modal-window-block",
-          "_sourceTheme": "mobirise5",
-          "_anchor": "witsec-modal-window-block-1g",
-          "modalWindow": "<div class=\"modal fade\" id=\"Eguneraketa\" tabindex=\"-1\" role=\"dialog\" aria-labelledby=\"EguneraketaLabel\" aria-hidden=\"true\">  <div class=\"modal-dialog  \" style=\"height:auto\" role=\"document\">    <div class=\"modal-content\"><div class=\"modal-header\">  <h5 class=\"no-anim modal-title\" id=\"EguneraketaLabel\">Eguneraketak: 2020/12/10 13:15</h5>  <a href=\"#\" class=\"no-anim close\" data-dismiss=\"modal\" aria-label=\"Close\"><span aria-hidden=\"true\">&times;</span></a></div><div class=\"modal-body\" id=\"Eguneraketa_body\">1.- Timing-a BERRIRO eguneratu da <a href='https://dleht.buruntzaldeaikt.eus/timing-a.html'>IKUSI</a>\n<br><br>\n2.- Parte-hartzaile zerrenda argitaratu da <a href='http://eif-fvn.org/wp-content/uploads/2020/12/Inscripciones-por-prueba.pdf'>IKUSI</a>\n<br><br>\n3.- Serieak argitaratu dira <a href='https://drive.google.com/open?id=1kW59gV_gRjciwzcTCzBiu37cy-fkrd2p'>IKUSI</a></div><div class=\"modal-footer\"><div class=\"mbr-section-btn\"><a href=\"#\" class=\"no-anim btn btn-secondary display-4\" data-dismiss=\"modal\">Itxi</a></div></div>    </div>  </div></div><script>document.addEventListener(\"DOMContentLoaded\", function() {  $(\"#Eguneraketa\").on(\"hidden.bs.modal\", function () {    var html = $( \"#Eguneraketa_body\" ).html();    $( \"#Eguneraketa_body\" ).empty();    $( \"#Eguneraketa_body\" ).append(html);  })});</script>"
         },
         {
           "alias": false,
@@ -1400,39 +1367,6 @@
           "_global": false,
           "_once": false,
           "_params": {}
-        },
-        {
-          "_params": {
-            "modalName": "Emaitzak",
-            "modalSize": "medium",
-            "modalHeader": true,
-            "modalTitle": "Serieen emaitzak",
-            "modalBody": "Emaitzarik ez dago oraindik",
-            "modalBodyHTML": false,
-            "modalFooter": true,
-            "modalCloseBtn": true,
-            "modalCloseText": "Itxi",
-            "modalLink": false,
-            "modalLinkUrl": "https://mobirise.com/",
-            "modalLinkText": "Visit Mobirise",
-            "modalLinkNewWindow": true,
-            "modalVerticalCenter": false,
-            "modalFade": true,
-            "modalAutoOpen": false,
-            "modalAutoOpenOnce": true,
-            "modalAutoOpenGDPR": true,
-            "modalAutoOpenDelay": 0
-          },
-          "modalTest": "<div class=\"mbr-section-btn\">\n  <a href=\"#\" class=\"btn btn-primary display-4\" data-toggle=\"modal\" data-target=\"#Emaitzak\">Preview Emaitzak</a>\n  <a href=\"#\" class=\"btn btn-primary display-4\" data-toggle=\"modal\" data-target=\"#Emaitzak-howtouse\">How to use Emaitzak</a>\n</div>\n<div class=\"modal fade\" id=\"Emaitzak-howtouse\" tabindex=\"-1\" role=\"dialog\" aria-labelledby=\"Emaitzak-howtouseLabel\" aria-hidden=\"true\">\n  <div class=\"modal-dialog\" role=\"document\" style=\"height:auto\">\n    <div class=\"modal-content\">\n      <div class=\"modal-header\">\n        <h5 class=\"modal-title\" id=\"Emaitzak-howtouseLabel\">How to use?</h5>\n        <a href=\"\" class=\"close\" data-dismiss=\"modal\" aria-label=\"Close\"><span aria-hidden=\"true\">&times;</span></a>\n      </div>\n      <div class=\"modal-body\">\n        Using your new modal is very easy. Simply create a new link, then click the \"...\" tab and enter the following as custom URL:<br /><br />\n        <code>javascript:OpenModal('Emaitzak')</code>\n      </div>\n      <div class=\"modal-footer\">\n        <div class=\"mbr-section-btn\"><a href=\"#\" class=\"btn btn-secondary display-4\" data-dismiss=\"modal\">Close</a></div>\n      </div>\n    </div>\n  </div>\n</div>",
-          "modalBody": "Emaitzarik ez dago oraindik",
-          "alias": "witsec-modal-window",
-          "_tags": [
-            "Extension"
-          ],
-          "_name": "witsec-modal-window-block",
-          "_sourceTheme": "mobirise5",
-          "_anchor": "witsec-modal-window-block-1i",
-          "modalWindow": "<div class=\"modal fade\" id=\"Emaitzak\" tabindex=\"-1\" role=\"dialog\" aria-labelledby=\"EmaitzakLabel\" aria-hidden=\"true\">  <div class=\"modal-dialog  \" style=\"height:auto\" role=\"document\">    <div class=\"modal-content\"><div class=\"modal-header\">  <h5 class=\"no-anim modal-title\" id=\"EmaitzakLabel\">Serieen emaitzak</h5>  <a href=\"#\" class=\"no-anim close\" data-dismiss=\"modal\" aria-label=\"Close\"><span aria-hidden=\"true\">&times;</span></a></div><div class=\"modal-body\" id=\"Emaitzak_body\">Emaitzarik ez dago oraindik</div><div class=\"modal-footer\"><div class=\"mbr-section-btn\"><a href=\"#\" class=\"no-anim btn btn-secondary display-4\" data-dismiss=\"modal\">Itxi</a></div></div>    </div>  </div></div><script>document.addEventListener(\"DOMContentLoaded\", function() {  $(\"#Emaitzak\").on(\"hidden.bs.modal\", function () {    var html = $( \"#Emaitzak_body\" ).html();    $( \"#Emaitzak_body\" ).empty();    $( \"#Emaitzak_body\" ).append(html);  })});</script>"
         },
         {
           "alias": false,
