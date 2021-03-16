@@ -55,7 +55,7 @@
     "sitemapSwitcherAuto": "on",
     "siteUrl": "https://dleht.buruntzaldeaikt.eus/sitemap.xml",
     "cookiesAlert": {
-      "customDialogSelector": true,
+      "customDialogSelector": false,
       "colorText": "#424a4d",
       "colorBg": "#eaeff1",
       "colorButton": "",
@@ -71,8 +71,7 @@
     "witsec-white-label": true,
     "witsec-mailform": false,
     "robotsText": "User-agent: *\nDisallow: /cgi-bin\n",
-    "global_header_custom": "<!-- Global site tag (gtag.js) - Google Analytics -->\n<script async src=\"https://www.googletagmanager.com/gtag/js?id=G-78MQBGNQBH\"></script>\n<script>\n  window.dataLayer = window.dataLayer || [];\n  function gtag(){dataLayer.push(arguments);}\n  gtag('js', new Date());\n\n  gtag('config', 'G-78MQBGNQBH');\n</script>\n",
-    "mbrsiteDomain": "gigqntfkie"
+    "global_header_custom": "<!-- Global site tag (gtag.js) - Google Analytics -->\n<script async src=\"https://www.googletagmanager.com/gtag/js?id=G-78MQBGNQBH\"></script>\n<script>\n  window.dataLayer = window.dataLayer || [];\n  function gtag(){dataLayer.push(arguments);}\n  gtag('js', new Date());\n\n  gtag('config', 'G-78MQBGNQBH');\n</script>\n"
   },
   "pages": {
     "index.html": {
