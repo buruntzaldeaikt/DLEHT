@@ -75,7 +75,7 @@
     "mbrsiteDomain": "1g32j24wg6",
     "witsec-language": "eu",
     "publishType": "local",
-    "publishPath": "@PROJECT_PATH@"
+    "publishPath": "file:///C:/Users/borja/Desktop/buruntzaldeaikt-eus"
   },
   "pages": {
     "index.html": {
