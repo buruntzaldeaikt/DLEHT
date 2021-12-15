@@ -106,75 +106,62 @@
     </div>
 </section>
 
-<section data-bs-version="5.1" class="mbr-section cid-O19qUxdvXq" id="design-block-O19qUxdvXq">
+<section class="mbr-section" id="witsec-modal-window-block-1v" data-rv-view="48">
 
-    
+	<style>
+	/* Let's not animate the contents of modal windows */
+	.no-anim {
+		-webkit-animation: none !important;
+		-moz-animation: none !important;
+		-o-animation: none !important;
+		-ms-animation: none !important;
+		animation: none !important;
+	}
+	</style>
 
-<style>
-/* Let's not animate the contents of modal windows */
-.no-anim {
-    -webkit-animation: none !important;
-    -moz-animation: none !important;
-    -o-animation: none !important;
-    -ms-animation: none !important;
-    animation: none !important;
-}
-</style>
+	
+	
+	<div><div class="modal fade" id="c19" tabindex="-1" role="dialog" aria-labelledby="c19Label" aria-hidden="true">  <div class="modal-dialog  modal-dialog-centered" style="height:auto" role="document">    <div class="modal-content"><div class="modal-header">  <h5 class="no-anim modal-title" id="c19Label">Covid19 ziurtagiria</h5>  <a href="#" class="no-anim close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></a></div><div class="modal-body" id="c19_body">Abenduaren 14ko lehendakariaren 47/2021 dekretuaren baitan, Europar Batasuneko Covid Ziurtagiri Digitala (QR) erakustea EZINBESTEKOA izango da instalakuntzan sartu ahal izateko.</div><div class="modal-footer"><div class="mbr-section-btn"><a href="#" class="no-anim btn btn-secondary display-4" data-dismiss="modal">Ulertu dut</a></div><div class="mbr-section-btn"><a href="https://www.euskadi.eus/contenidos/informacion/kirolean_jarraibideak_covid19/eu_def/47-2021-DEKRETUA-abenduaren-14koa.pdf" class="no-anim btn btn-primary display-4" target="_new">47/2021 dekretua</a></div></div>    </div>  </div></div><script>document.addEventListener("DOMContentLoaded", function() {  $("#c19").on("hidden.bs.modal", function () {    var html = $( "#c19_body" ).html();    $( "#c19_body" ).empty();    $( "#c19_body" ).append(html);  })});</script></div>
 
+	<script>
+	if (typeof OpenModal === 'undefined') {
+		OpenModal = function(modalName) {
+			if ($('#' + modalName).length)
+				$('#' + modalName).modal('show');
+			else
+				alert("Sorry, but there is no modal for " + modalName);
+		}
+	}
 
-<div style="padding:1rem" class="hidden">
-    <input type="button" class="btn btn-primary display-4" data-toggle="modal" data-bs-toggle="modal" value="Preview c19" data-target="#c19" data-bs-target="#c19">
-    <input type="button" class="btn btn-primary display-4" data-toggle="modal" data-bs-toggle="modal" value="How to use" data-target="#c19Help" data-bs-target="#c19Help">
-    This preview button will be removed on preview/publish.
-</div>
+	function modalSetCookie(cname, cvalue, exdays) {
+		var d = new Date();
+		d.setTime(d.getTime() + (exdays*24*60*60*1000));
+		var expires = "expires="+ d.toUTCString();
+		document.cookie = cname + "=" + cvalue + ";" + expires + ";path=/";
+	}
 
-<div class="modal fade" tabindex="-1" role="dialog" aria-hidden="true" id="c19" aria-labelledby="c19Label">
-    <div class="modal-dialog modal-lg modal-dialog-centered" role="document">
-        <div class="modal-content">
-            <div class="modal-header">
-                <h5 class="no-anim modal-title">Covid19 Ziurtagiria</h5>
-                <a href="#" class="no-anim close" data-dismiss="modal" data-bs-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></a>
-            </div>
-            <p class="modal-body mbr-text align-left pb-3 mbr-fonts-style">Abenduaren 14ko lehendakariaren 47/2021 dekretuaren baitan, Europar Batasuneko Covid Ziurtagiri Digitala (QR) erakustea EZINBESTEKOA izango da instalakuntzan sartu ahal izateko.</p>
-            <div class="modal-footer">
-                <div class="mbr-section-btn"><a href="#" class="no-anim btn btn-secondary display-4" data-dismiss="modal" data-bs-dismiss="modal">Ulertu dut</a>
-                    <a href="https://www.euskadi.eus/contenidos/informacion/kirolean_jarraibideak_covid19/eu_def/47-2021-DEKRETUA-abenduaren-14koa.pdf" class="no-anim btn btn-md btn-black-outline display-4" target="_blank">47/2021 dekretua</a></div>
-            </div>
-        </div>
-    </div>
-</div>
+	function modalGetCookie(cname) {
+		var name = cname + "=";
+		var decodedCookie = decodeURIComponent(document.cookie);
+		var ca = decodedCookie.split(';');
+		for(var i = 0; i <ca.length; i++) {
+			var c = ca[i];
+			while (c.charAt(0) == ' ') {
+				c = c.substring(1);
+			}
+			if (c.indexOf(name) == 0) {
+				return c.substring(name.length, c.length);
+			}
+		}
+		return "";
+	}
+	</script>
 
-<div class="modal fade hidden" tabindex="-1" role="dialog" aria-hidden="true" id="c19Help" aria-labelledby="c19HelpLabel">
-    <div class="modal-dialog" role="document">
-        <div class="modal-content">
-            <div class="modal-header">
-                <div class="h5 no-anim modal-title" id="c19HelpLabel">Modal title</div>
-                <a href="#" class="no-anim close" data-dismiss="modal" data-bs-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></a>
-            </div>
-            <div class="modal-body">
-                Using your new modal is very easy. Simply create a new link, then click the "..." tab and enter the following as custom URL:<br><br>
-                <code>javascript:OpenModal('YourModalName')</code><br><br>
-                Replace 'YourModalName' with the name you chose.
-            </div>
-            <div class="modal-footer">
-                <div class="display-4">
-                    <a href="#" class="no-anim btn btn-secondary display-4" data-dismiss="modal" data-bs-dismiss="modal">Close</a>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
-
-<script>
-if (typeof OpenModal === 'undefined') {
-    OpenModal = function(modalName) {
-        if ($('#' + modalName).length)
-            $('#' + modalName).modal('show');
-    }
-}
-</script>    
-
-</section>
+</section><script>
+document.addEventListener("DOMContentLoaded", function() {
+  setTimeout( function() { OpenModal("c19"); } , 3000);
+});
+</script>
 
 <section data-bs-version="5.1" class="features1 cid-sRFamDmNBr" id="Covid-19">
     
@@ -207,7 +194,7 @@ if (typeof OpenModal === 'undefined') {
                             <span class="mbr-iconfont fas fa-fw fa-head-side-mask" style="color: rgb(2, 76, 30); fill: rgb(2, 76, 30);"></span>
                         </div>
                         <h5 class="card-title mbr-fonts-style display-7"><strong>Musukoa</strong></h5>
-                        <p class="card-text mbr-fonts-style display-7">Igeri egiteko unean izan ezik, momentuoro musukoa jantzita izatea DERRIGORREZKOA DA.</p>
+                        <p class="card-text mbr-fonts-style display-7">Igeri egiteko unean izan ezik (poieteraino eta poietetik abiatzean), momentuoro musukoa jantzita izatea DERRIGORREZKOA DA.</p>
                     </div>
                 </div>
             </div>
