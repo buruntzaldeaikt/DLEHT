@@ -45,7 +45,7 @@
     ],
     "dppsSwitcher": true,
     "spellingSwitch": true,
-    "uniqCompNum": 69,
+    "uniqCompNum": 68,
     "versionPublish": "5.5.2",
     "screenshot": "screenshot.png",
     "favicon": false,
@@ -73,9 +73,7 @@
     "robotsText": "User-agent: *\nDisallow: /cgi-bin\n",
     "global_header_custom": "<!-- Global site tag (gtag.js) - Google Analytics -->\n<script async src=\"https://www.googletagmanager.com/gtag/js?id=G-78MQBGNQBH\"></script>\n<script>\n  window.dataLayer = window.dataLayer || [];\n  function gtag(){dataLayer.push(arguments);}\n  gtag('js', new Date());\n\n  gtag('config', 'G-78MQBGNQBH');\n</script>\n",
     "mbrsiteDomain": "1g32j24wg6",
-    "witsec-language": "eu",
-    "publishType": "local",
-    "publishPath": "file:///C:/Users/borja/Desktop/buruntzaldeaikt-eus"
+    "witsec-language": "eu"
   },
   "pages": {
     "index.html": {
@@ -535,11 +533,11 @@
         },
         {
           "_params": {
-            "modalName": "C19",
-            "modalSize": "large",
+            "modalName": "c19",
+            "modalSize": "medium",
             "modalHeader": true,
-            "modalTitle": "Covid19 Ziurtagiria eta Musukoa",
-            "modalBody": "Abenduaren 14ko lehendakariaren 47/2021 dekretuaren baitan, Europar Batasuneko Covid Ziurtagiri Digitala (QR) erakustea EZINBESTEKOA izango da instalakuntzan sartu ahal izateko.\n\nMusukoa momentuoro jantzita izan behar da, igeri egiteko momentuan izan ezik.",
+            "modalTitle": "Covid19 ziurtagiria",
+            "modalBody": "Abenduaren 14ko lehendakariaren 47/2021 dekretuaren baitan, Europar Batasuneko Covid Ziurtagiri Digitala (QR) erakustea EZINBESTEKOA izango da instalakuntzan sartu ahal izateko.",
             "modalBodyHTML": false,
             "modalFooter": true,
             "modalCloseBtn": true,
@@ -547,24 +545,24 @@
             "modalLink": true,
             "modalLinkUrl": "https://www.euskadi.eus/contenidos/informacion/kirolean_jarraibideak_covid19/eu_def/47-2021-DEKRETUA-abenduaren-14koa.pdf",
             "modalLinkText": "47/2021 dekretua",
-            "modalLinkNewWindow": false,
+            "modalLinkNewWindow": true,
             "modalVerticalCenter": true,
             "modalFade": true,
             "modalAutoOpen": true,
             "modalAutoOpenOnce": false,
-            "modalAutoOpenGDPR": true,
-            "modalAutoOpenDelay": "2"
+            "modalAutoOpenGDPR": false,
+            "modalAutoOpenDelay": "3"
           },
-          "modalTest": "<div class=\"mbr-section-btn\">\n  <a href=\"#\" class=\"btn btn-primary display-4\" data-toggle=\"modal\" data-target=\"#C19\" data-bs-toggle=\"modal\" data-bs-target=\"#C19\">Preview C19</a>\n  <a href=\"#\" class=\"btn btn-primary display-4\" data-toggle=\"modal\" data-target=\"#C19-howtouse\" data-bs-toggle=\"modal\" data-bs-target=\"#C19-howtouse\">How to use C19</a>\n</div>\n<div class=\"modal fade\" id=\"C19-howtouse\" tabindex=\"-1\" role=\"dialog\" aria-labelledby=\"C19-howtouseLabel\" aria-hidden=\"true\">\n  <div class=\"modal-dialog\" role=\"document\" style=\"height:auto\">\n    <div class=\"modal-content\">\n      <div class=\"modal-header\">\n        <h5 class=\"modal-title\" id=\"C19-howtouseLabel\">How to use?</h5>\n        <a href=\"\" class=\"close\" data-bs-dismiss=\"modal\" data-dismiss=\"modal\" aria-label=\"Close\"><span aria-hidden=\"true\">&times;</span></a>\n      </div>\n      <div class=\"modal-body\">\n        Using your new modal is very easy. Simply create a new link, then click the \"...\" tab and enter the following as custom URL:<br /><br />\n        <code>javascript:OpenModal('C19')</code>\n      </div>\n      <div class=\"modal-footer\">\n        <div class=\"mbr-section-btn\"><a href=\"#\" class=\"btn btn-secondary display-4\" data-bs-dismiss=\"modal\" data-dismiss=\"modal\">Close</a></div>\n      </div>\n    </div>\n  </div>\n</div>",
-          "modalBody": "Abenduaren 14ko lehendakariaren 47/2021 dekretuaren baitan, Europar Batasuneko Covid Ziurtagiri Digitala (QR) erakustea EZINBESTEKOA izango da instalakuntzan sartu ahal izateko.\n\nMusukoa momentuoro jantzita izan behar da, igeri egiteko momentuan izan ezik.",
+          "modalTest": "<div class=\"mbr-section-btn\">\n  <a href=\"#\" class=\"btn btn-primary display-4\" data-toggle=\"modal\" data-target=\"#c19\">Preview c19</a>\n  <a href=\"#\" class=\"btn btn-primary display-4\" data-toggle=\"modal\" data-target=\"#c19-howtouse\">How to use c19</a>\n</div>\n<div class=\"modal fade\" id=\"c19-howtouse\" tabindex=\"-1\" role=\"dialog\" aria-labelledby=\"c19-howtouseLabel\" aria-hidden=\"true\">\n  <div class=\"modal-dialog\" role=\"document\" style=\"height:auto\">\n    <div class=\"modal-content\">\n      <div class=\"modal-header\">\n        <h5 class=\"modal-title\" id=\"c19-howtouseLabel\">How to use?</h5>\n        <a href=\"\" class=\"close\" data-dismiss=\"modal\" aria-label=\"Close\"><span aria-hidden=\"true\">&times;</span></a>\n      </div>\n      <div class=\"modal-body\">\n        Using your new modal is very easy. Simply create a new link, then click the \"...\" tab and enter the following as custom URL:<br /><br />\n        <code>javascript:OpenModal('c19')</code>\n      </div>\n      <div class=\"modal-footer\">\n        <div class=\"mbr-section-btn\"><a href=\"#\" class=\"btn btn-secondary display-4\" data-dismiss=\"modal\">Close</a></div>\n      </div>\n    </div>\n  </div>\n</div>",
+          "modalBody": "Abenduaren 14ko lehendakariaren 47/2021 dekretuaren baitan, Europar Batasuneko Covid Ziurtagiri Digitala (QR) erakustea EZINBESTEKOA izango da instalakuntzan sartu ahal izateko.",
           "alias": "witsec-modal-window",
           "_tags": [
             "Extension"
           ],
           "_name": "witsec-modal-window-block",
           "_sourceTheme": "mobirise5",
-          "_anchor": "witsec-modal-window-block-1w",
-          "modalWindow": "<div class=\"modal fade\" id=\"C19\" tabindex=\"-1\" role=\"dialog\" aria-labelledby=\"C19Label\" aria-hidden=\"true\">  <div class=\"modal-dialog modal-lg modal-dialog-centered\" style=\"height:auto\" role=\"document\">    <div class=\"modal-content\"><div class=\"modal-header\">  <h5 class=\"no-anim modal-title\" id=\"C19Label\">Covid19 Ziurtagiria eta Musukoa</h5>  <a href=\"#\" class=\"no-anim close\" data-bs-dismiss=\"modal\" data-dismiss=\"modal\" aria-label=\"Close\"><span aria-hidden=\"true\">&times;</span></a></div><div class=\"modal-body\" id=\"C19_body\">Abenduaren 14ko lehendakariaren 47/2021 dekretuaren baitan, Europar Batasuneko Covid Ziurtagiri Digitala (QR) erakustea EZINBESTEKOA izango da instalakuntzan sartu ahal izateko.<br /><br />Musukoa momentuoro jantzita izan behar da, igeri egiteko momentuan izan ezik.</div><div class=\"modal-footer\"><div class=\"mbr-section-btn\"><a href=\"#\" class=\"no-anim btn btn-secondary display-4\" data-bs-dismiss=\"modal\" data-dismiss=\"modal\">Ulertu dut</a></div><div class=\"mbr-section-btn\"><a href=\"https://www.euskadi.eus/contenidos/informacion/kirolean_jarraibideak_covid19/eu_def/47-2021-DEKRETUA-abenduaren-14koa.pdf\" class=\"no-anim btn btn-primary display-4\" >47/2021 dekretua</a></div></div>    </div>  </div></div><script> \ndocument.addEventListener(\"DOMContentLoaded\", function() { \n  if(typeof jQuery === \"function\") {\n    $(\"#C19\").on(\"hidden.bs.modal\", function () { \n      var html = $( \"#C19_body\" ).html(); \n      $( \"#C19_body\" ).empty(); \n      $( \"#C19_body\" ).append(html); \n    }) \n  } else { \n      var mdw = document.getElementById(\"#C19\") \n      mdw.addEventListener(\"hidden.bs.modal\", function(event) { \n        mdw.innerHTML = mdw.innerHTML; \n      }); \n  } \n}); \n</script>"
+          "_anchor": "witsec-modal-window-block-1v",
+          "modalWindow": "<div class=\"modal fade\" id=\"c19\" tabindex=\"-1\" role=\"dialog\" aria-labelledby=\"c19Label\" aria-hidden=\"true\">  <div class=\"modal-dialog  modal-dialog-centered\" style=\"height:auto\" role=\"document\">    <div class=\"modal-content\"><div class=\"modal-header\">  <h5 class=\"no-anim modal-title\" id=\"c19Label\">Covid19 ziurtagiria</h5>  <a href=\"#\" class=\"no-anim close\" data-dismiss=\"modal\" aria-label=\"Close\"><span aria-hidden=\"true\">&times;</span></a></div><div class=\"modal-body\" id=\"c19_body\">Abenduaren 14ko lehendakariaren 47/2021 dekretuaren baitan, Europar Batasuneko Covid Ziurtagiri Digitala (QR) erakustea EZINBESTEKOA izango da instalakuntzan sartu ahal izateko.</div><div class=\"modal-footer\"><div class=\"mbr-section-btn\"><a href=\"#\" class=\"no-anim btn btn-secondary display-4\" data-dismiss=\"modal\">Ulertu dut</a></div><div class=\"mbr-section-btn\"><a href=\"https://www.euskadi.eus/contenidos/informacion/kirolean_jarraibideak_covid19/eu_def/47-2021-DEKRETUA-abenduaren-14koa.pdf\" class=\"no-anim btn btn-primary display-4\" target=_new>47/2021 dekretua</a></div></div>    </div>  </div></div><script>document.addEventListener(\"DOMContentLoaded\", function() {  $(\"#c19\").on(\"hidden.bs.modal\", function () {    var html = $( \"#c19_body\" ).html();    $( \"#c19_body\" ).empty();    $( \"#c19_body\" ).append(html);  })});</script>"
         },
         {
           "alias": false,
