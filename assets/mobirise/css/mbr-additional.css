@@ -1075,6 +1075,31 @@ a {
 .cid-sRFamDmNBr .row {
   justify-content: center;
 }
+.cid-sRFamDmNBr .card-text {
+  text-align: justify;
+}
+.cid-sRKbGyT1ln {
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+  background-color: #ffffff;
+}
+@media (min-width: 1500px) {
+  .cid-sRKbGyT1ln .container {
+    max-width: 1400px;
+  }
+}
+.cid-sRKbGyT1ln .mbr-iconfont {
+  display: block;
+  font-size: 5rem;
+  color: #6592e6;
+  margin-bottom: 2rem;
+}
+.cid-sRKbGyT1ln .card-wrapper {
+  margin-top: 3rem;
+}
+.cid-sRKbGyT1ln .row {
+  justify-content: center;
+}
 .cid-sP13YMu3AL {
   padding-top: 2rem;
   padding-bottom: 0rem;
