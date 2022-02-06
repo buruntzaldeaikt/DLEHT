@@ -73,7 +73,9 @@
     "robotsText": "User-agent: *\nDisallow: /cgi-bin\n",
     "global_header_custom": "<!-- Global site tag (gtag.js) - Google Analytics -->\n<script async src=\"https://www.googletagmanager.com/gtag/js?id=G-78MQBGNQBH\"></script>\n<script>\n  window.dataLayer = window.dataLayer || [];\n  function gtag(){dataLayer.push(arguments);}\n  gtag('js', new Date());\n\n  gtag('config', 'G-78MQBGNQBH');\n</script>\n",
     "mbrsiteDomain": "sur1jbuiqu",
-    "witsec-language": "eu"
+    "witsec-language": "eu",
+    "publishType": "local",
+    "publishPath": "@PROJECT_PATH@"
   },
   "pages": {
     "index.html": {
